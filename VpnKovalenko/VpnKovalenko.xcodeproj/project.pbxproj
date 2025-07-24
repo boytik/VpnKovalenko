@@ -6,17 +6,28 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3E0158C42E32C5E40002DAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0158BE2E32C5E40002DAEF /* Assets.xcassets */; };
+		3E0158C52E32C5E40002DAEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158BF2E32C5E40002DAEF /* ContentView.swift */; };
+		3E0158C62E32C5E40002DAEF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C02E32C5E40002DAEF /* MainViewModel.swift */; };
+		3E0158C72E32C5E40002DAEF /* VpnKovalenkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */; };
+		3E0158C82E32C5E40002DAEF /* VPNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C22E32C5E40002DAEF /* VPNService.swift */; };
+		3E0158CE2E32C88E0002DAEF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158CD2E32C88E0002DAEF /* UserModel.swift */; };
+		3E0158D02E32C8960002DAEF /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158CF2E32C8960002DAEF /* KeyModel.swift */; };
+		3E0158D22E32C95C0002DAEF /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158D12E32C95C0002DAEF /* KeyChainService.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3E0158642E3267630002DAEF /* VpnKovalenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VpnKovalenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0158BE2E32C5E40002DAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E0158BF2E32C5E40002DAEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E0158C02E32C5E40002DAEF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnKovalenkoApp.swift; sourceTree = "<group>"; };
+		3E0158C22E32C5E40002DAEF /* VPNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNService.swift; sourceTree = "<group>"; };
+		3E0158CD2E32C88E0002DAEF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3E0158CF2E32C8960002DAEF /* KeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
+		3E0158D12E32C95C0002DAEF /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3E0158662E3267630002DAEF /* VpnKovalenko */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VpnKovalenko;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3E0158612E3267630002DAEF /* Frameworks */ = {
@@ -32,7 +43,7 @@
 		3E01585B2E3267630002DAEF = {
 			isa = PBXGroup;
 			children = (
-				3E0158662E3267630002DAEF /* VpnKovalenko */,
+				3E0158C32E32C5E40002DAEF /* VpnKovalenko */,
 				3E0158652E3267630002DAEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +54,53 @@
 				3E0158642E3267630002DAEF /* VpnKovalenko.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3E0158C32E32C5E40002DAEF /* VpnKovalenko */ = {
+			isa = PBXGroup;
+			children = (
+				3E0158CC2E32C6070002DAEF /* Support */,
+				3E0158CB2E32C5FD0002DAEF /* ViewModel */,
+				3E0158CA2E32C5F20002DAEF /* View */,
+				3E0158C92E32C5E60002DAEF /* VpnService */,
+			);
+			path = VpnKovalenko;
+			sourceTree = "<group>";
+		};
+		3E0158C92E32C5E60002DAEF /* VpnService */ = {
+			isa = PBXGroup;
+			children = (
+				3E0158C22E32C5E40002DAEF /* VPNService.swift */,
+				3E0158CD2E32C88E0002DAEF /* UserModel.swift */,
+				3E0158CF2E32C8960002DAEF /* KeyModel.swift */,
+				3E0158D12E32C95C0002DAEF /* KeyChainService.swift */,
+			);
+			path = VpnService;
+			sourceTree = "<group>";
+		};
+		3E0158CA2E32C5F20002DAEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E0158BF2E32C5E40002DAEF /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E0158CB2E32C5FD0002DAEF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E0158C02E32C5E40002DAEF /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3E0158CC2E32C6070002DAEF /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				3E0158BE2E32C5E40002DAEF /* Assets.xcassets */,
+				3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +117,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3E0158662E3267630002DAEF /* VpnKovalenko */,
 			);
 			name = VpnKovalenko;
 			packageProductDependencies = (
@@ -109,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0158C42E32C5E40002DAEF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0158C52E32C5E40002DAEF /* ContentView.swift in Sources */,
+				3E0158C62E32C5E40002DAEF /* MainViewModel.swift in Sources */,
+				3E0158D22E32C95C0002DAEF /* KeyChainService.swift in Sources */,
+				3E0158C72E32C5E40002DAEF /* VpnKovalenkoApp.swift in Sources */,
+				3E0158D02E32C8960002DAEF /* KeyModel.swift in Sources */,
+				3E0158CE2E32C88E0002DAEF /* UserModel.swift in Sources */,
+				3E0158C82E32C5E40002DAEF /* VPNService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +322,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -268,6 +331,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Boytik.VpnKovalenko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,8 +353,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,6 +362,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Boytik.VpnKovalenko;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
