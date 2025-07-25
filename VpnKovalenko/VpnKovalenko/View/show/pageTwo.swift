@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+
 struct SecondFullscreenImageView: View {
     @Environment(\.dismiss) var dismiss
     @State private var showThirdScreen = false
@@ -39,7 +40,7 @@ struct SecondFullscreenImageView: View {
                 // 🌐 Кликабельная зона над блоком с сервером
                 Color.clear
                     .contentShape(Rectangle())
-                    .frame(width: geometry.size.width - 40, height: 70)
+                    .frame(width: max(geometry.size.width - 40, 0), height: 70)
                     .position(x: geometry.size.width / 2, y: geometry.size.height - 80)
                     .onTapGesture {
                         showThirdScreen = true
@@ -52,9 +53,9 @@ struct SecondFullscreenImageView: View {
                 FourthFullscreenImageView()
             }
         }
+        .navigationBarBackButtonHidden(true) 
     }
 }
-
 
 
 

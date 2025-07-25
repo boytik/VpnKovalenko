@@ -24,5 +24,7 @@ struct FourthFullscreenImageView: View {
                     dismiss()
                 }
         }
+        .navigationBarBackButtonHidden(true) 
     }
+    
 }
