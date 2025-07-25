@@ -8,25 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		3E0158C42E32C5E40002DAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0158BE2E32C5E40002DAEF /* Assets.xcassets */; };
-		3E0158C52E32C5E40002DAEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158BF2E32C5E40002DAEF /* ContentView.swift */; };
+		3E0158C52E32C5E40002DAEF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158BF2E32C5E40002DAEF /* MainView.swift */; };
 		3E0158C62E32C5E40002DAEF /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C02E32C5E40002DAEF /* MainViewModel.swift */; };
 		3E0158C72E32C5E40002DAEF /* VpnKovalenkoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */; };
 		3E0158C82E32C5E40002DAEF /* VPNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158C22E32C5E40002DAEF /* VPNService.swift */; };
 		3E0158CE2E32C88E0002DAEF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158CD2E32C88E0002DAEF /* UserModel.swift */; };
 		3E0158D02E32C8960002DAEF /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158CF2E32C8960002DAEF /* KeyModel.swift */; };
 		3E0158D22E32C95C0002DAEF /* KeyChainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0158D12E32C95C0002DAEF /* KeyChainService.swift */; };
+		3ED88EEF2E33CCDC00A45CE8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EEE2E33CCDC00A45CE8 /* SettingsView.swift */; };
+		3ED88EF12E33CF8300A45CE8 /* ConnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF02E33CF8300A45CE8 /* ConnectedView.swift */; };
+		3ED88EF32E33D02A00A45CE8 /* DisconnectedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF22E33D02A00A45CE8 /* DisconnectedContent.swift */; };
+		3ED88EF52E33D06100A45CE8 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF42E33D06100A45CE8 /* SpeedometerView.swift */; };
+		3ED88EF72E33DC8A00A45CE8 /* mocServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF62E33DC8A00A45CE8 /* mocServers.swift */; };
+		3ED88EF92E33DCC300A45CE8 /* ServerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF82E33DCC300A45CE8 /* ServerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E0158642E3267630002DAEF /* VpnKovalenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VpnKovalenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0158BE2E32C5E40002DAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3E0158BF2E32C5E40002DAEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3E0158BF2E32C5E40002DAEF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		3E0158C02E32C5E40002DAEF /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VpnKovalenkoApp.swift; sourceTree = "<group>"; };
 		3E0158C22E32C5E40002DAEF /* VPNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNService.swift; sourceTree = "<group>"; };
 		3E0158CD2E32C88E0002DAEF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3E0158CF2E32C8960002DAEF /* KeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
 		3E0158D12E32C95C0002DAEF /* KeyChainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainService.swift; sourceTree = "<group>"; };
+		3ED88EEE2E33CCDC00A45CE8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3ED88EF02E33CF8300A45CE8 /* ConnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedView.swift; sourceTree = "<group>"; };
+		3ED88EF22E33D02A00A45CE8 /* DisconnectedContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedContent.swift; sourceTree = "<group>"; };
+		3ED88EF42E33D06100A45CE8 /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
+		3ED88EF62E33DC8A00A45CE8 /* mocServers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mocServers.swift; sourceTree = "<group>"; };
+		3ED88EF82E33DCC300A45CE8 /* ServerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +93,12 @@
 		3E0158CA2E32C5F20002DAEF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3E0158BF2E32C5E40002DAEF /* ContentView.swift */,
+				3E0158BF2E32C5E40002DAEF /* MainView.swift */,
+				3ED88EEE2E33CCDC00A45CE8 /* SettingsView.swift */,
+				3ED88EF02E33CF8300A45CE8 /* ConnectedView.swift */,
+				3ED88EF22E33D02A00A45CE8 /* DisconnectedContent.swift */,
+				3ED88EF42E33D06100A45CE8 /* SpeedometerView.swift */,
+				3ED88EF82E33DCC300A45CE8 /* ServerListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				3E0158C02E32C5E40002DAEF /* MainViewModel.swift */,
+				3ED88EF62E33DC8A00A45CE8 /* mocServers.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -175,10 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E0158C52E32C5E40002DAEF /* ContentView.swift in Sources */,
+				3E0158C52E32C5E40002DAEF /* MainView.swift in Sources */,
+				3ED88EEF2E33CCDC00A45CE8 /* SettingsView.swift in Sources */,
 				3E0158C62E32C5E40002DAEF /* MainViewModel.swift in Sources */,
+				3ED88EF12E33CF8300A45CE8 /* ConnectedView.swift in Sources */,
+				3ED88EF72E33DC8A00A45CE8 /* mocServers.swift in Sources */,
+				3ED88EF32E33D02A00A45CE8 /* DisconnectedContent.swift in Sources */,
 				3E0158D22E32C95C0002DAEF /* KeyChainService.swift in Sources */,
+				3ED88EF92E33DCC300A45CE8 /* ServerListView.swift in Sources */,
 				3E0158C72E32C5E40002DAEF /* VpnKovalenkoApp.swift in Sources */,
+				3ED88EF52E33D06100A45CE8 /* SpeedometerView.swift in Sources */,
 				3E0158D02E32C8960002DAEF /* KeyModel.swift in Sources */,
 				3E0158CE2E32C88E0002DAEF /* UserModel.swift in Sources */,
 				3E0158C82E32C5E40002DAEF /* VPNService.swift in Sources */,
