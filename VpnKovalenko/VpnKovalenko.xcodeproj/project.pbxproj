@@ -21,6 +21,10 @@
 		3ED88EF52E33D06100A45CE8 /* SpeedometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF42E33D06100A45CE8 /* SpeedometerView.swift */; };
 		3ED88EF72E33DC8A00A45CE8 /* mocServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF62E33DC8A00A45CE8 /* mocServers.swift */; };
 		3ED88EF92E33DCC300A45CE8 /* ServerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EF82E33DCC300A45CE8 /* ServerListView.swift */; };
+		3ED88EFC2E33FA8900A45CE8 /* pageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EFB2E33FA8900A45CE8 /* pageOne.swift */; };
+		3ED88EFE2E33FA9700A45CE8 /* pageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EFD2E33FA9700A45CE8 /* pageTwo.swift */; };
+		3ED88F002E33FAA200A45CE8 /* pageThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88EFF2E33FAA200A45CE8 /* pageThree.swift */; };
+		3ED88F022E33FAAB00A45CE8 /* pagefour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED88F012E33FAAB00A45CE8 /* pagefour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		3ED88EF42E33D06100A45CE8 /* SpeedometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerView.swift; sourceTree = "<group>"; };
 		3ED88EF62E33DC8A00A45CE8 /* mocServers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mocServers.swift; sourceTree = "<group>"; };
 		3ED88EF82E33DCC300A45CE8 /* ServerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListView.swift; sourceTree = "<group>"; };
+		3ED88EFB2E33FA8900A45CE8 /* pageOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageOne.swift; sourceTree = "<group>"; };
+		3ED88EFD2E33FA9700A45CE8 /* pageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageTwo.swift; sourceTree = "<group>"; };
+		3ED88EFF2E33FAA200A45CE8 /* pageThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageThree.swift; sourceTree = "<group>"; };
+		3ED88F012E33FAAB00A45CE8 /* pagefour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagefour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 		3E0158CA2E32C5F20002DAEF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3ED88EFA2E33FA7C00A45CE8 /* show */,
 				3E0158BF2E32C5E40002DAEF /* MainView.swift */,
 				3ED88EEE2E33CCDC00A45CE8 /* SettingsView.swift */,
 				3ED88EF02E33CF8300A45CE8 /* ConnectedView.swift */,
@@ -119,6 +128,17 @@
 				3E0158C12E32C5E40002DAEF /* VpnKovalenkoApp.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		3ED88EFA2E33FA7C00A45CE8 /* show */ = {
+			isa = PBXGroup;
+			children = (
+				3ED88EFB2E33FA8900A45CE8 /* pageOne.swift */,
+				3ED88EFD2E33FA9700A45CE8 /* pageTwo.swift */,
+				3ED88EFF2E33FAA200A45CE8 /* pageThree.swift */,
+				3ED88F012E33FAAB00A45CE8 /* pagefour.swift */,
+			);
+			path = show;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED88EFC2E33FA8900A45CE8 /* pageOne.swift in Sources */,
 				3E0158C52E32C5E40002DAEF /* MainView.swift in Sources */,
 				3ED88EEF2E33CCDC00A45CE8 /* SettingsView.swift in Sources */,
 				3E0158C62E32C5E40002DAEF /* MainViewModel.swift in Sources */,
@@ -201,11 +222,14 @@
 				3ED88EF32E33D02A00A45CE8 /* DisconnectedContent.swift in Sources */,
 				3E0158D22E32C95C0002DAEF /* KeyChainService.swift in Sources */,
 				3ED88EF92E33DCC300A45CE8 /* ServerListView.swift in Sources */,
+				3ED88F022E33FAAB00A45CE8 /* pagefour.swift in Sources */,
 				3E0158C72E32C5E40002DAEF /* VpnKovalenkoApp.swift in Sources */,
 				3ED88EF52E33D06100A45CE8 /* SpeedometerView.swift in Sources */,
 				3E0158D02E32C8960002DAEF /* KeyModel.swift in Sources */,
+				3ED88EFE2E33FA9700A45CE8 /* pageTwo.swift in Sources */,
 				3E0158CE2E32C88E0002DAEF /* UserModel.swift in Sources */,
 				3E0158C82E32C5E40002DAEF /* VPNService.swift in Sources */,
+				3ED88F002E33FAA200A45CE8 /* pageThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
