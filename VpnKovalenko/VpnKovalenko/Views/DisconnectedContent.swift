@@ -4,20 +4,9 @@ import SwiftUI
 struct DisconnectedContent: View {
     var onConnect: () -> Void
     var onAccessKey: () -> Void
-    var onSettingsTap: () -> Void
 
     var body: some View {
         VStack(spacing: 30) {
-            HStack {
-                Button(action: onSettingsTap) {
-                    Image(systemName: "gearshape.fill")
-                        .foregroundColor(.gray)
-                        .font(.system(size: 22))
-                        .padding()
-                }
-                Spacer()
-            }
-
             Text("VPN KOVALENKO")
                 .font(.title)
                 .fontWeight(.bold)

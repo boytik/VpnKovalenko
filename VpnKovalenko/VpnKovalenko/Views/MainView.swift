@@ -5,7 +5,6 @@ struct MainView: View {
     @State private var isConnected = false
     @State private var showKeyPopup = false
     @State private var accessKey = ""
-    @State private var showSettings = false
 
     var body: some View {
         NavigationStack {
@@ -17,15 +16,13 @@ struct MainView: View {
                 if isConnected {
                     ConnectedContent(
                         isConnected: $isConnected,
-                        onSettingsTap: { showSettings = true },
                         speed: 33,
                         sessionTime: "02:23:05"
                     )
                 } else {
                     DisconnectedContent(
                         onConnect: { isConnected = true },
-                        onAccessKey: { showKeyPopup = true },
-                        onSettingsTap: { showSettings = true }
+                        onAccessKey: { showKeyPopup = true }
                     )
                 }
 
@@ -73,16 +70,10 @@ struct MainView: View {
                     .shadow(color: .black.opacity(0.8), radius: 10, x: 0, y: 4)
                 }
             }
-            .navigationDestination(isPresented: $showSettings) {
-                SettingsView(isPresented: $showSettings)
-            }
         }
         .animation(.easeInOut, value: isConnected)
     }
 }
-
-
-
 
 #Preview {
     MainView()

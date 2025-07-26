@@ -1,12 +1,9 @@
-import SwiftUI
-
 
 
 import SwiftUI
 
 struct ConnectedContent: View {
     @Binding var isConnected: Bool
-    var onSettingsTap: () -> Void
     var speed: Int = 40
     var sessionTime: String
 
@@ -14,18 +11,6 @@ struct ConnectedContent: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            HStack {
-                Button(action: {
-                    onSettingsTap()
-                }) {
-                    Image(systemName: "gearshape.fill")
-                        .foregroundColor(.gray)
-                        .font(.system(size: 22))
-                        .padding()
-                }
-                Spacer()
-            }
-
             Text("VPN KOVALENKO")
                 .font(.title)
                 .fontWeight(.bold)

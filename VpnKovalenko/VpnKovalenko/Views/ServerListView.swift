@@ -1,9 +1,4 @@
-//
-//  ServerListView.swift
-//  VpnKovalenko
-//
-//  Created by Евгений on 25.07.2025.
-//
+
 
 import SwiftUI
 

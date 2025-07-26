@@ -11,7 +11,7 @@ struct VPNServer: Identifiable {
     let countryFlag: String
     let location: String
     let ip: String
-    let signalStrength: Int // от 1 до 4
+    let signalStrength: Int 
 }
 
 let mockServers: [VPNServer] = [
